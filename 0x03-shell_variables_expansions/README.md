@@ -3,7 +3,7 @@
 ## Learning Objectives
 
 ### General
-- What happens when you type `$ls -l *.txt
+- What happens when you type `$ls -l *.txt`
 
 ### Shell Initialization Files
 - What are the `/etc/profile` file and the `/etc/profile.d` directory
@@ -35,7 +35,7 @@
 
 ## Tasks
 
-### 0. "<o>"
+### 0. \<o\>
 Create a script that creates an alias with the name `ls` and the value `rm \*`.
 
 ### 1. Hello you
