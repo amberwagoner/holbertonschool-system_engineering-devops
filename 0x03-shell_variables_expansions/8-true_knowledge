@@ -1,2 +1,4 @@
 #!/bin/bash
-$(( $TRUEKNOWLEDGE + 128 ))
+A=$(( $TRUEKNOWLEDGE + 128 ))
+echo $A
+
