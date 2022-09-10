@@ -1,4 +1,2 @@
 #!/bin/bash
-A=$(( $TRUEKNOWLEDGE + 128 ))
-echo $A
-
+A=$(( $TRUEKNOWLEDGE + 128 )) ; echo $A
