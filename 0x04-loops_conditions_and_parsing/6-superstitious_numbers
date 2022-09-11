@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Script displays numbers 1 through 20 and special messages on 4, 9, and 17. Uses while loop and case statement.
+
+i=0
+while (( i < 20 ))
+do
+	i=$(( i + 1 ))
+	case "$i" in
+		"4") echo -e "$i\nbad luck from China"
+			;;
+		"9") echo -e "$i\nbad luck from Japan"
+			;;
+		"17") echo -e "$i\nbad luck from Italy"
+			;;
+		*) echo "$i"
+	esac
+done
