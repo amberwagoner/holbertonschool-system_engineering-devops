@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script displays Best School 10 times, except on the 9th time it also displays Hi on a new line.
+
+i=1
+while (( i < 10 ))
+do
+	echo "Best School"
+	i=$(( i+1 ))
+	if (( i == 9 ))
+	then
+		printf "Best School\nHi\n"
+	fi
+done
